@@ -1,0 +1,2 @@
+rootProject.name='Bareme IRG salaires 2021'
+include ':app'

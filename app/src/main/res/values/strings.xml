@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Barème IRG Salaires dz</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">mouhassabascf20@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home"></string>
+    <string name="menu_gallery">Partager l\'application</string>
+    <string name="menu_slideshow">A propos</string>
+
+    <string name="home_second">Home Second</string>
+
+
+    <string name="fr">Français</string>
+    <string name="ar">العربية</string>
+
+
+    <string name="title1">أيام/ساعات عمل الفترة</string>
+    <string name="title2">أيام/ساعات العمل المنجز</string>
+</resources>

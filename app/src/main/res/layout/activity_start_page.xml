@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".startPage">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:onClick="share"
+            android:layout_margin="15sp"
+            android:scaleType="fitCenter"
+            android:tint="@android:color/white"
+            android:background="@android:color/transparent"
+            android:id="@+id/imageButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="?attr/actionModeShareDrawable" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+
+        <Spinner
+            android:layout_margin="15sp"
+            android:id="@+id/spinner1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:drawable/ic_dialog_info" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:id="@+id/logoImg"
+        android:layout_width="match_parent"
+        android:layout_height="180sp"
+        app:srcCompat="@drawable/logon" />
+
+
+
+    <LinearLayout
+        android:layout_marginBottom="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_margin="25dp"
+            android:onClick="france"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/button6"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:text="@string/fr" />
+
+        <Button
+            android:onClick="arabic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/button66"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:text="@string/ar" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
